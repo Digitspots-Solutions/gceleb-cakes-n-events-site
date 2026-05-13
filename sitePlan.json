@@ -1,0 +1,42 @@
+{
+  "businessName": "GCELEB CAKES N EVENTS",
+  "industry": "Cake Manufacturing & Event Services",
+  "tone": "warm and inviting",
+  "tagline": "Crafting Sweet Memories for Your Special Moments",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "Welcome to GCELEB CAKES N EVENTS - Where Every Celebration Becomes Unforgettable. From exquisite custom cakes to full event management, we bring your sweetest dreams to life. Proudly serving Abeokuta and beyond with premium quality confections and professional event services.",
+      "imagePrompt": "Photorealistic image of an elegant multi-tiered Nigerian wedding cake with intricate fondant decorations in gold and white, displayed at a beautifully decorated event venue in Abeokuta, warm ambient lighting, professional event setup with Nigerian cultural elements, lush floral arrangements, luxurious presentation",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "GCELEB CAKES N EVENTS is Abeokuta's premier destination for exceptional cakes and memorable events. Based in Abeokuta South, we specialize in creating artisan cakes and pastries that don't just taste amazing—they tell your story. From intimate birthday celebrations to grand weddings, our skilled team combines traditional baking expertise with modern design trends to deliver confections that wow your guests. Beyond cakes, we offer comprehensive event planning and management services, ensuring every detail of your special day is executed flawlessly. Our commitment to quality ingredients, attention to detail, and personalized service has made us the first choice for discerning clients across Ogun State.",
+      "imagePrompt": "Warm, inviting bakery interior in Abeokuta showing professional Nigerian bakers in clean uniforms decorating beautiful cakes, modern baking equipment, shelves with fresh pastries, natural lighting through windows, professional kitchen atmosphere with African touches, focus on craftsmanship and quality",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "**Custom Celebration Cakes** - Wedding cakes, birthday cakes, anniversary cakes, and corporate event cakes designed to your exact specifications. Each cake is a masterpiece crafted with premium ingredients.\n\n**Artisan Pastries & Desserts** - Fresh daily selection of cupcakes, cookies, brownies, donuts, meat pies, and traditional Nigerian treats. Perfect for gifts or personal indulgence.\n\n**Event Planning & Management** - Full-service event coordination including venue decoration, catering arrangements, vendor management, and day-of coordination for weddings, birthdays, and corporate events.\n\n**Cake Classes & Workshops** - Learn professional cake decorating techniques from our experienced bakers. Group and private sessions available.\n\n**Bulk Orders & Corporate Services** - Special rates for corporate events, office parties, and large gatherings. Reliable delivery across Abeokuta.",
+      "imagePrompt": "Professional collage showing diverse Nigerian celebration cakes including a vibrant traditional wedding cake, colorful children's birthday cake with cartoon characters, elegant corporate cake, beautiful cupcake tower, and decorated event venue, all photographed in bright, appetizing lighting that showcases detail and quality",
+      "layout": "grid"
+    },
+    {
+      "id": "contact",
+      "name": "Get in Touch",
+      "copy": "Ready to make your celebration extraordinary? Contact GCELEB CAKES N EVENTS today for consultations, quotes, or to place your order. We're located in the heart of Abeokuta South and look forward to serving you.\n\n**Visit Our Bakery:**\nNo 2, Babatunde Adeyanju Close, Idi-Aba, Abeokuta, Ogun State\n\n**Call or WhatsApp:**\n08164676301\n\n**Business Hours:**\nMonday - Saturday: 8:00 AM - 6:00 PM\nSunday: By Appointment\n\nFor cake orders, we recommend booking at least 2 weeks in advance for custom designs. Same-day pastries available while supplies last. Event planning consultations are complimentary.",
+      "imagePrompt": "Welcoming storefront of a modern Nigerian bakery in Abeokuta with attractive signage, clean glass windows displaying beautiful cakes, professional exterior, customers entering, well-maintained building, green plants, inviting entrance, daytime photography with natural lighting",
+      "layout": "centered"
+    }
+  ],
+  "contact": {
+    "phone": "08164676301",
+    "email": "",
+    "address": "No 2, Babatunde Adeyanju Close, Idi-Aba, Abeokuta, Ogun State",
+    "whatsapp": "https://wa.me/2348164676301"
+  }
+}
