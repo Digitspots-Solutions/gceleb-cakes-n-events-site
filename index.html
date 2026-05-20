@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GCELEB CAKES N EVENTS - Crafting Sweet Memories for Your Special Moments</title>
+    <title>Saraki Logistics Renewable Energy Limited - Powering Nigeria's Energy Future</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            --color-primary: #0a1725;
-            --color-accent: #e83b00;
-            --color-bg: #F6F6F6;
-            --color-text: #081220;
-            --color-surface: #101b33;
-            --color-secondary-accent: #05953f;
-            --font-display: 'Barlow Condensed', sans-serif;
-            --font-body: 'Plus Jakarta Sans', sans-serif;
-            --border-radius: 18px;
+            --color-primary: #0c1320;
+            --color-accent: #dbb20d;
+            --color-bg: #FAF8F2;
+            --color-text: #101E30;
+            --color-surface: #1a2c44;
+            --color-secondary-accent: #7e9da6;
+            --font-display: 'EB Garamond', serif;
+            --font-body: 'DM Sans', sans-serif;
+            --border-radius: 4px;
         }
 
         * {
@@ -35,6 +35,7 @@
             color: var(--color-text);
             background-color: var(--color-bg);
             line-height: 1.6;
+            font-weight: 400;
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -56,21 +57,18 @@
 
         /* Navigation */
         nav {
-            position: fixed;
+            position: sticky;
             top: 0;
-            left: 0;
-            right: 0;
-            background: rgba(246, 246, 246, 0.95);
+            background: rgba(250, 248, 242, 0.95);
             backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
             z-index: 1000;
-            padding: 1rem 2rem;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
 
         .nav-container {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 1.25rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -87,14 +85,14 @@
         .nav-links {
             display: flex;
             list-style: none;
-            gap: 2rem;
-            align-items: center;
+            gap: 2.5rem;
         }
 
         .nav-links a {
             text-decoration: none;
             color: var(--color-text);
             font-weight: 500;
+            font-size: 0.95rem;
             transition: color 0.3s ease;
         }
 
@@ -136,7 +134,7 @@
             width: 300px;
             height: calc(100vh - 70px);
             background: var(--color-bg);
-            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
             transition: right 0.3s ease;
             z-index: 999;
             padding: 2rem;
@@ -170,30 +168,22 @@
 
         /* Hero Section */
         #hero {
+            position: relative;
             min-height: 100vh;
             display: flex;
             align-items: center;
-            justify-content: center;
-            text-align: center;
-            position: relative;
-            padding: 80px 2rem 48px;
             overflow: hidden;
             animation: fadeUp 0.6s ease forwards;
         }
 
-        .hero-bg {
+        .hero-image {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: 1;
-        }
-
-        .hero-bg img {
-            width: 100%;
-            height: 100%;
             object-fit: cover;
+            z-index: 1;
         }
 
         .hero-overlay {
@@ -209,19 +199,28 @@
         .hero-content {
             position: relative;
             z-index: 3;
-            max-width: 900px;
-            color: white;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            color: #ffffff;
+            max-width: 800px;
         }
 
         .hero-content h1 {
-            font-size: 4rem;
+            font-size: 3.5rem;
             margin-bottom: 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        .hero-content .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+            color: var(--color-accent);
         }
 
         .hero-content p {
-            font-size: 1.25rem;
+            font-size: 1.125rem;
             margin-bottom: 2rem;
             line-height: 1.8;
             font-weight: 300;
@@ -229,33 +228,54 @@
 
         .cta-button {
             display: inline-block;
-            padding: 1rem 3rem;
+            padding: 1rem 2.5rem;
             background: var(--color-accent);
-            color: white;
+            color: var(--color-primary);
             text-decoration: none;
             border-radius: var(--border-radius);
-            font-weight: 600;
-            font-size: 1.1rem;
+            font-weight: 500;
+            font-size: 1.05rem;
             transition: all 0.3s ease;
-            box-shadow: 0 8px 20px rgba(232, 59, 0, 0.3);
+            box-shadow: 0 2px 8px rgba(219, 178, 13, 0.3);
         }
 
         .cta-button:hover {
-            background: #c53200;
+            background: #f0c520;
             transform: translateY(-2px);
-            box-shadow: 0 12px 28px rgba(232, 59, 0, 0.4);
+            box-shadow: 0 4px 12px rgba(219, 178, 13, 0.4);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 80px 2rem;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--color-primary);
+        }
+
+        .section-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            color: var(--color-accent);
+            font-weight: 500;
         }
 
         /* About Section */
         #about {
-            padding: 80px 2rem;
+            background: #ffffff;
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.1s;
         }
 
-        .about-container {
-            max-width: 1400px;
-            margin: 0 auto;
+        .about-split {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
@@ -265,76 +285,60 @@
         .about-image {
             width: 100%;
             height: 500px;
-            border-radius: var(--border-radius);
-            overflow: hidden;
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
-        }
-
-        .about-image img {
-            width: 100%;
-            height: 100%;
             object-fit: cover;
+            border-radius: var(--border-radius);
         }
 
-        .about-content h2 {
-            font-size: 3rem;
-            color: var(--color-primary);
+        .about-text h2 {
+            font-size: 2.75rem;
             margin-bottom: 1.5rem;
-            text-transform: uppercase;
+            color: var(--color-primary);
         }
 
-        .about-content p {
-            font-size: 1.1rem;
+        .about-text h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--color-accent);
+            font-weight: 500;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
             line-height: 1.8;
-            color: var(--color-text);
-            font-weight: 400;
         }
 
         /* Services Section */
         #services {
-            padding: 80px 2rem;
-            background: white;
+            background: var(--color-bg);
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.2s;
-        }
-
-        .services-container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .services-container h2 {
-            font-size: 3rem;
-            color: var(--color-primary);
-            text-align: center;
-            margin-bottom: 3rem;
-            text-transform: uppercase;
         }
 
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
+            margin-top: 3rem;
         }
 
         .service-card {
-            background: var(--color-bg);
-            padding: 2rem;
+            background: #ffffff;
+            padding: 2.5rem;
             border-radius: var(--border-radius);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
             transition: all 0.3s ease;
         }
 
         .service-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         }
 
         .service-card h3 {
             font-size: 1.5rem;
-            color: var(--color-accent);
             margin-bottom: 1rem;
-            font-weight: 600;
+            color: var(--color-primary);
         }
 
         .service-card p {
@@ -343,108 +347,175 @@
             color: var(--color-text);
         }
 
-        /* Contact Section */
-        #contact {
-            padding: 80px 2rem;
+        /* Why Choose Us Section */
+        #why-choose-us {
+            background: var(--color-surface);
+            color: #ffffff;
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.3s;
         }
 
-        .contact-container {
-            max-width: 1000px;
-            margin: 0 auto;
-            text-align: center;
+        #why-choose-us .section-title {
+            color: #ffffff;
         }
 
-        .contact-container h2 {
-            font-size: 3rem;
-            color: var(--color-primary);
-            margin-bottom: 2rem;
-            text-transform: uppercase;
+        #why-choose-us .section-subtitle {
+            color: var(--color-accent);
         }
 
-        .contact-content {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            margin-bottom: 3rem;
-        }
-
-        .contact-details {
+        .why-cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
 
-        .contact-item {
-            background: white;
-            padding: 2rem;
+        .why-card {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 2.5rem;
             border-radius: var(--border-radius);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid var(--color-accent);
+            transition: all 0.3s ease;
         }
 
-        .contact-item h3 {
-            font-size: 1.3rem;
-            color: var(--color-accent);
+        .why-card:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateX(4px);
+        }
+
+        .why-card h3 {
+            font-size: 1.5rem;
             margin-bottom: 1rem;
+            color: var(--color-accent);
         }
 
-        .contact-item p {
+        .why-card p {
             font-size: 1rem;
-            color: var(--color-text);
-            line-height: 1.6;
+            line-height: 1.7;
+            color: rgba(255, 255, 255, 0.9);
         }
 
-        .contact-item a {
-            color: var(--color-secondary-accent);
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .contact-item a:hover {
-            text-decoration: underline;
-        }
-
-        /* Footer */
-        footer {
-            background: var(--color-surface);
-            color: white;
-            text-align: center;
-            padding: 2rem;
+        /* Contact Section */
+        #contact {
+            background: #ffffff;
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.4s;
         }
 
-        footer p {
-            font-size: 1rem;
+        .contact-split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+            margin-top: 3rem;
         }
 
-        /* WhatsApp Float Button */
+        .contact-info h3 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
+            margin-top: 2rem;
+        }
+
+        .contact-info h3:first-of-type {
+            margin-top: 0;
+        }
+
+        .contact-info p {
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .contact-info a {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: var(--color-primary);
+        }
+
+        .contact-image {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+        }
+
+        .whatsapp-btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.875rem 2rem;
+            background: #25D366;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-btn:hover {
+            background: #20ba5a;
+            transform: translateY(-2px);
+        }
+
+        /* WhatsApp Floating Button */
         .whatsapp-float {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background: #25D366;
-            color: white;
             width: 60px;
             height: 60px;
+            background: #25D366;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
-            text-decoration: none;
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
             z-index: 999;
             transition: all 0.3s ease;
+            text-decoration: none;
         }
 
         .whatsapp-float:hover {
             transform: scale(1.1);
-            box-shadow: 0 8px 28px rgba(37, 211, 102, 0.5);
+            box-shadow: 0 6px 16px rgba(37, 211, 102, 0.5);
+        }
+
+        .whatsapp-float svg {
+            width: 32px;
+            height: 32px;
+            fill: #ffffff;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--color-primary);
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 2rem;
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.5s;
+        }
+
+        footer p {
+            font-size: 0.95rem;
         }
 
         /* Responsive */
+        @media (max-width: 1024px) {
+            .hero-content h1 {
+                font-size: 2.75rem;
+            }
+
+            .section-title {
+                font-size: 2.25rem;
+            }
+        }
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -454,64 +525,69 @@
                 display: flex;
             }
 
-            .hero-content h1 {
-                font-size: 2.5rem;
-            }
-
-            .hero-content p {
-                font-size: 1.1rem;
-            }
-
-            .about-container {
-                grid-template-columns: 1fr;
-            }
-
-            .about-image {
-                height: 300px;
-            }
-
-            .about-content h2,
-            .services-container h2,
-            .contact-container h2 {
-                font-size: 2rem;
-            }
-
-            #hero,
-            #about,
-            #services,
-            #contact {
+            section {
                 padding: 48px 1.5rem;
             }
 
-            nav {
-                padding: 1rem 1.5rem;
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .hero-content .tagline {
+                font-size: 1.125rem;
+            }
+
+            .hero-content p {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.875rem;
+            }
+
+            .section-subtitle {
+                font-size: 1.25rem;
+            }
+
+            .about-split,
+            .contact-split {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .about-image,
+            .contact-image {
+                height: 300px;
+            }
+
+            .services-grid,
+            .why-cards {
+                grid-template-columns: 1fr;
             }
 
             .whatsapp-float {
                 width: 50px;
                 height: 50px;
-                font-size: 1.5rem;
                 bottom: 20px;
                 right: 20px;
             }
-        }
 
-        @media (max-width: 1024px) and (min-width: 769px) {
-            .hero-content h1 {
-                font-size: 3.5rem;
+            .whatsapp-float svg {
+                width: 26px;
+                height: 26px;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="#hero" class="logo">GCELEB CAKES N EVENTS</a>
+            <a href="#hero" class="logo">Saraki Logistics</a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu-btn">
@@ -522,107 +598,133 @@
         </div>
     </nav>
 
-    <!-- Mobile Menu -->
     <div class="mobile-menu">
         <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#why-choose-us">Why Choose Us</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
-    <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-bg">
-            <img src="https://images.pexels.com/photos/13128709/pexels-photo-13128709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Elegant wedding cake">
-        </div>
+        <img src="https://images.pexels.com/photos/36343354/pexels-photo-36343354.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Saraki Logistics Energy Facility" class="hero-image">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>GCELEB CAKES N EVENTS</h1>
-            <p>Welcome to GCELEB CAKES N EVENTS - Where Every Celebration Becomes Unforgettable. From exquisite custom cakes to full event management, we bring your sweetest dreams to life. Proudly serving Abeokuta and beyond with premium quality confections and professional event services.</p>
-            <a href="#contact" class="cta-button">Get Started</a>
+            <h1>Saraki Logistics Renewable Energy Limited</h1>
+            <p class="tagline">Your Trusted Partner in Oil & Gas and Clean Energy Solutions</p>
+            <p>With proven expertise in oilfield services and a commitment to sustainable energy, we deliver comprehensive logistics and power solutions that drive Nigeria's economic growth. From traditional energy infrastructure to cutting-edge renewable technologies, we power progress across Ogun State and beyond.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
-        <div class="about-container">
-            <div class="about-image">
-                <img src="https://images.pexels.com/photos/29380150/pexels-photo-29380150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Professional bakers at work">
-            </div>
-            <div class="about-content">
-                <h2>About Us</h2>
-                <p>GCELEB CAKES N EVENTS is Abeokuta's premier destination for exceptional cakes and memorable events. Based in Abeokuta South, we specialize in creating artisan cakes and pastries that don't just taste amazing—they tell your story. From intimate birthday celebrations to grand weddings, our skilled team combines traditional baking expertise with modern design trends to deliver confections that wow your guests. Beyond cakes, we offer comprehensive event planning and management services, ensuring every detail of your special day is executed flawlessly. Our commitment to quality ingredients, attention to detail, and personalized service has made us the first choice for discerning clients across Ogun State.</p>
+        <div class="section-container">
+            <div class="about-split">
+                <img src="https://images.pexels.com/photos/37198880/pexels-photo-37198880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Saraki Logistics Team" class="about-image">
+                <div class="about-text">
+                    <h2>Excellence in Energy Solutions</h2>
+                    <p>Saraki Logistics Renewable Energy Limited stands at the forefront of Nigeria's energy sector, combining decades of oilfield services expertise with forward-thinking renewable energy solutions. Operating from our headquarters in Abeokuta, Ogun State, we serve clients across Nigeria with unwavering commitment to safety, reliability, and innovation.</p>
+                    <p>Our comprehensive approach bridges traditional oil and gas operations with clean power technologies, positioning us uniquely to support Nigeria's energy transition. Whether you require robust logistics for oilfield operations or sustainable renewable energy installations, our experienced team delivers solutions that exceed industry standards.</p>
+                    <p>As Saraki Logistics Clean Power Solutions, we understand that Nigeria's energy future demands both reliability and sustainability. Our director brings extensive oilfield services experience, ensuring every project benefits from deep industry knowledge and professional execution.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services">
-        <div class="services-container">
-            <h2>Our Services</h2>
+        <div class="section-container">
+            <h2 class="section-title">Comprehensive Energy Solutions</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Custom Celebration Cakes</h3>
-                    <p>Wedding cakes, birthday cakes, anniversary cakes, and corporate event cakes designed to your exact specifications. Each cake is a masterpiece crafted with premium ingredients.</p>
+                    <h3>Oilfield Services</h3>
+                    <p>Complete logistics support for oil and gas operations including equipment transportation, supply chain management, and field support services. Our proven track record ensures seamless operations and minimized downtime for your critical projects.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Artisan Pastries & Desserts</h3>
-                    <p>Fresh daily selection of cupcakes, cookies, brownies, donuts, meat pies, and traditional Nigerian treats. Perfect for gifts or personal indulgence.</p>
+                    <h3>Renewable Energy Solutions</h3>
+                    <p>From solar power installations to hybrid energy systems, we design and implement clean energy solutions tailored to Nigerian businesses and communities. Reduce operational costs while contributing to environmental sustainability.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Event Planning & Management</h3>
-                    <p>Full-service event coordination including venue decoration, catering arrangements, vendor management, and day-of coordination for weddings, birthdays, and corporate events.</p>
+                    <h3>Energy Logistics & Supply Chain</h3>
+                    <p>End-to-end logistics management for energy sector clients. We handle procurement, warehousing, transportation, and distribution with the precision and reliability your operations demand.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Cake Classes & Workshops</h3>
-                    <p>Learn professional cake decorating techniques from our experienced bakers. Group and private sessions available.</p>
+                    <h3>Project Management & Consulting</h3>
+                    <p>Expert guidance for energy infrastructure projects. Our team provides technical consulting, feasibility studies, and full project management services from concept to commissioning.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Bulk Orders & Corporate Services</h3>
-                    <p>Special rates for corporate events, office parties, and large gatherings. Reliable delivery across Abeokuta.</p>
+                    <h3>Maintenance & Technical Support</h3>
+                    <p>Ongoing maintenance services for both conventional and renewable energy installations. Our responsive technical team ensures optimal performance and maximum uptime for your energy assets.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <section id="why-choose-us">
+        <div class="section-container">
+            <h2 class="section-title">Your Success is Our Priority</h2>
+            <div class="why-cards">
+                <div class="why-card">
+                    <h3>Proven Industry Expertise</h3>
+                    <p>Years of hands-on experience in oilfield services and renewable energy, led by a seasoned Oilfield Services Director who understands the unique challenges of Nigeria's energy sector.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Comprehensive Service Portfolio</h3>
+                    <p>One trusted partner for all your energy needs—from traditional oil and gas logistics to cutting-edge renewable power solutions. Streamline your vendor relationships while maintaining the highest standards.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Local Knowledge, Global Standards</h3>
+                    <p>Deep understanding of Nigerian business environment combined with international best practices. We navigate local regulations and logistics challenges while delivering world-class service quality.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Safety First Culture</h3>
+                    <p>Uncompromising commitment to health, safety, and environmental standards. Every project is executed with rigorous safety protocols protecting your team, assets, and community.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Reliable Project Delivery</h3>
+                    <p>On-time, on-budget execution backed by robust project management systems. We understand that delays cost money—our track record speaks to our reliability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact">
-        <div class="contact-container">
-            <h2>Get in Touch</h2>
-            <div class="contact-content">
-                <p>Ready to make your celebration extraordinary? Contact GCELEB CAKES N EVENTS today for consultations, quotes, or to place your order. We're located in the heart of Abeokuta South and look forward to serving you.</p>
-                <p>For cake orders, we recommend booking at least 2 weeks in advance for custom designs. Same-day pastries available while supplies last. Event planning consultations are complimentary.</p>
-            </div>
-            <div class="contact-details">
-                <div class="contact-item">
-                    <h3>Visit Our Bakery</h3>
-                    <p>No 2, Babatunde Adeyanju Close, Idi-Aba, Abeokuta, Ogun State</p>
-                </div>
-                <div class="contact-item">
-                    <h3>Call or WhatsApp</h3>
-                    <p><a href="tel:08164676301">08164676301</a></p>
-                </div>
-                <div class="contact-item">
+        <div class="section-container">
+            <h2 class="section-title">Ready to Power Your Next Project?</h2>
+            <p style="font-size: 1.125rem; margin-bottom: 2rem; line-height: 1.7;">Whether you're planning oilfield operations or exploring renewable energy solutions, Saraki Logistics Renewable Energy Limited is ready to deliver excellence. Our team is available to discuss your specific requirements and provide tailored solutions.</p>
+            <div class="contact-split">
+                <div class="contact-info">
+                    <h3>Visit Our Office</h3>
+                    <p>No 2, Babatunde Adeyanju Close, Idi-Aba, Abeokuta South, Ogun State, Nigeria</p>
+                    
+                    <h3>Get in Touch</h3>
+                    <p>Phone: <a href="tel:+2348164676301">+234 816 467 6301</a></p>
+                    <p>Email: <a href="mailto:info@sarakilogistics.com">info@sarakilogistics.com</a></p>
+                    <a href="https://wa.me/2348164676301" class="whatsapp-btn">WhatsApp Us</a>
+                    
                     <h3>Business Hours</h3>
-                    <p>Monday - Saturday: 8:00 AM - 6:00 PM<br>Sunday: By Appointment</p>
+                    <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                    Saturday: 9:00 AM - 2:00 PM<br>
+                    Emergency Support: Available 24/7 for existing clients</p>
+                    
+                    <h3>Request a Quote</h3>
+                    <p>Contact us today for a comprehensive consultation and competitive quotation for your energy project. Our experienced team will assess your needs and propose solutions that deliver value and performance.</p>
                 </div>
+                <img src="https://images.pexels.com/photos/37405046/pexels-photo-37405046.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Saraki Logistics Office" class="contact-image">
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 GCELEB CAKES N EVENTS. All rights reserved.</p>
-    </footer>
-
-    <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/2348164676301" class="whatsapp-float" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="30" height="30">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    <a href="https://wa.me/2348164676301" class="whatsapp-float" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32">
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.923 0-7.435 6.050-13.485 13.485-13.485s13.485 6.050 13.485 13.485c0 7.435-6.050 13.485-13.485 13.485zM21.960 18.965c-0.277-0.138-1.637-0.807-1.89-0.898-0.253-0.092-0.437-0.138-0.621 0.138s-0.713 0.898-0.875 1.082c-0.161 0.184-0.323 0.207-0.599 0.069s-1.169-0.431-2.227-1.374c-0.823-0.734-1.378-1.641-1.540-1.918s-0.017-0.425 0.121-0.562c0.124-0.124 0.277-0.323 0.415-0.485s0.184-0.277 0.277-0.462c0.092-0.184 0.046-0.346-0.023-0.485s-0.621-1.496-0.852-2.049c-0.225-0.537-0.453-0.465-0.621-0.472-0.161-0.008-0.346-0.010-0.530-0.010s-0.485 0.069-0.738 0.346c-0.253 0.277-0.967 0.945-0.967 2.304s0.99 2.672 1.128 2.856c0.138 0.184 1.945 2.969 4.713 4.161 0.658 0.284 1.172 0.454 1.573 0.581 0.662 0.210 1.263 0.180 1.740 0.109 0.531-0.079 1.637-0.669 1.868-1.315s0.231-1.201 0.162-1.315c-0.069-0.114-0.253-0.184-0.530-0.323z"/>
         </svg>
     </a>
+
+    <footer>
+        <p>&copy; 2025 Saraki Logistics Renewable Energy Limited. All rights reserved.</p>
+    </footer>
 
     <script>
         // Mobile menu toggle
