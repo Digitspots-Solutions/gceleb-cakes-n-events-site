@@ -1,42 +1,49 @@
 {
-  "businessName": "GCELEB CAKES N EVENTS",
-  "industry": "Cake Manufacturing & Event Services",
-  "tone": "warm and inviting",
-  "tagline": "Crafting Sweet Memories for Your Special Moments",
+  "businessName": "Saraki Logistics Renewable Energy Limited",
+  "industry": "Oil & Gas / Renewable Energy",
+  "tone": "Professional and authoritative",
+  "tagline": "Powering Nigeria's Energy Future with Excellence and Innovation",
   "sections": [
     {
       "id": "hero",
       "name": "Hero",
-      "copy": "Welcome to GCELEB CAKES N EVENTS - Where Every Celebration Becomes Unforgettable. From exquisite custom cakes to full event management, we bring your sweetest dreams to life. Proudly serving Abeokuta and beyond with premium quality confections and professional event services.",
-      "imagePrompt": "Photorealistic image of an elegant multi-tiered Nigerian wedding cake with intricate fondant decorations in gold and white, displayed at a beautifully decorated event venue in Abeokuta, warm ambient lighting, professional event setup with Nigerian cultural elements, lush floral arrangements, luxurious presentation",
+      "copy": "Saraki Logistics Renewable Energy Limited\n\nYour Trusted Partner in Oil & Gas and Clean Energy Solutions\n\nWith proven expertise in oilfield services and a commitment to sustainable energy, we deliver comprehensive logistics and power solutions that drive Nigeria's economic growth. From traditional energy infrastructure to cutting-edge renewable technologies, we power progress across Ogun State and beyond.",
+      "imagePrompt": "Photorealistic wide-angle shot of modern oil and gas facility at golden hour in Nigeria, with solar panel arrays in the foreground symbolizing renewable energy transition, industrial pipes and storage tanks in the mid-ground, lush green Nigerian landscape in the background, professional corporate atmosphere, warm lighting, high-end commercial photography",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "GCELEB CAKES N EVENTS is Abeokuta's premier destination for exceptional cakes and memorable events. Based in Abeokuta South, we specialize in creating artisan cakes and pastries that don't just taste amazing—they tell your story. From intimate birthday celebrations to grand weddings, our skilled team combines traditional baking expertise with modern design trends to deliver confections that wow your guests. Beyond cakes, we offer comprehensive event planning and management services, ensuring every detail of your special day is executed flawlessly. Our commitment to quality ingredients, attention to detail, and personalized service has made us the first choice for discerning clients across Ogun State.",
-      "imagePrompt": "Warm, inviting bakery interior in Abeokuta showing professional Nigerian bakers in clean uniforms decorating beautiful cakes, modern baking equipment, shelves with fresh pastries, natural lighting through windows, professional kitchen atmosphere with African touches, focus on craftsmanship and quality",
+      "copy": "Excellence in Energy Solutions\n\nSaraki Logistics Renewable Energy Limited stands at the forefront of Nigeria's energy sector, combining decades of oilfield services expertise with forward-thinking renewable energy solutions. Operating from our headquarters in Abeokuta, Ogun State, we serve clients across Nigeria with unwavering commitment to safety, reliability, and innovation.\n\nOur comprehensive approach bridges traditional oil and gas operations with clean power technologies, positioning us uniquely to support Nigeria's energy transition. Whether you require robust logistics for oilfield operations or sustainable renewable energy installations, our experienced team delivers solutions that exceed industry standards.\n\nAs Saraki Logistics Clean Power Solutions, we understand that Nigeria's energy future demands both reliability and sustainability. Our director brings extensive oilfield services experience, ensuring every project benefits from deep industry knowledge and professional execution.",
+      "imagePrompt": "Professional corporate photography of diverse Nigerian engineering team in safety gear reviewing blueprints at a modern energy facility, combination of oil infrastructure and solar installations visible in background, natural daylight, confident and competent atmosphere, high-quality business portrait style",
       "layout": "split"
     },
     {
       "id": "services",
       "name": "Our Services",
-      "copy": "**Custom Celebration Cakes** - Wedding cakes, birthday cakes, anniversary cakes, and corporate event cakes designed to your exact specifications. Each cake is a masterpiece crafted with premium ingredients.\n\n**Artisan Pastries & Desserts** - Fresh daily selection of cupcakes, cookies, brownies, donuts, meat pies, and traditional Nigerian treats. Perfect for gifts or personal indulgence.\n\n**Event Planning & Management** - Full-service event coordination including venue decoration, catering arrangements, vendor management, and day-of coordination for weddings, birthdays, and corporate events.\n\n**Cake Classes & Workshops** - Learn professional cake decorating techniques from our experienced bakers. Group and private sessions available.\n\n**Bulk Orders & Corporate Services** - Special rates for corporate events, office parties, and large gatherings. Reliable delivery across Abeokuta.",
-      "imagePrompt": "Professional collage showing diverse Nigerian celebration cakes including a vibrant traditional wedding cake, colorful children's birthday cake with cartoon characters, elegant corporate cake, beautiful cupcake tower, and decorated event venue, all photographed in bright, appetizing lighting that showcases detail and quality",
+      "copy": "Comprehensive Energy Solutions\n\nOilfield Services\nComplete logistics support for oil and gas operations including equipment transportation, supply chain management, and field support services. Our proven track record ensures seamless operations and minimized downtime for your critical projects.\n\nRenewable Energy Solutions\nFrom solar power installations to hybrid energy systems, we design and implement clean energy solutions tailored to Nigerian businesses and communities. Reduce operational costs while contributing to environmental sustainability.\n\nEnergy Logistics & Supply Chain\nEnd-to-end logistics management for energy sector clients. We handle procurement, warehousing, transportation, and distribution with the precision and reliability your operations demand.\n\nProject Management & Consulting\nExpert guidance for energy infrastructure projects. Our team provides technical consulting, feasibility studies, and full project management services from concept to commissioning.\n\nMaintenance & Technical Support\nOngoing maintenance services for both conventional and renewable energy installations. Our responsive technical team ensures optimal performance and maximum uptime for your energy assets.",
+      "imagePrompt": "Dynamic collage-style photorealistic image showing multiple Nigerian energy sector activities: workers installing solar panels, oil tanker trucks on Nigerian highway, technicians maintaining industrial equipment, modern control room with monitoring screens, all with professional industrial photography quality, bright daylight conditions",
       "layout": "grid"
     },
     {
+      "id": "why-choose-us",
+      "name": "Why Choose Saraki Logistics",
+      "copy": "Your Success is Our Priority\n\nProven Industry Expertise\nYears of hands-on experience in oilfield services and renewable energy, led by a seasoned Oilfield Services Director who understands the unique challenges of Nigeria's energy sector.\n\nComprehensive Service Portfolio\nOne trusted partner for all your energy needs—from traditional oil and gas logistics to cutting-edge renewable power solutions. Streamline your vendor relationships while maintaining the highest standards.\n\nLocal Knowledge, Global Standards\nDeep understanding of Nigerian business environment combined with international best practices. We navigate local regulations and logistics challenges while delivering world-class service quality.\n\nSafety First Culture\nUncompromising commitment to health, safety, and environmental standards. Every project is executed with rigorous safety protocols protecting your team, assets, and community.\n\nReliable Project Delivery\nOn-time, on-budget execution backed by robust project management systems. We understand that delays cost money—our track record speaks to our reliability.",
+      "imagePrompt": "Inspiring photorealistic image of successful Nigerian energy project completion ceremony, diverse team of engineers and executives in professional attire and safety vests, modern energy facility in background with both traditional and renewable infrastructure, blue sky, sense of achievement and professionalism, corporate event photography style",
+      "layout": "cards"
+    },
+    {
       "id": "contact",
-      "name": "Get in Touch",
-      "copy": "Ready to make your celebration extraordinary? Contact GCELEB CAKES N EVENTS today for consultations, quotes, or to place your order. We're located in the heart of Abeokuta South and look forward to serving you.\n\n**Visit Our Bakery:**\nNo 2, Babatunde Adeyanju Close, Idi-Aba, Abeokuta, Ogun State\n\n**Call or WhatsApp:**\n08164676301\n\n**Business Hours:**\nMonday - Saturday: 8:00 AM - 6:00 PM\nSunday: By Appointment\n\nFor cake orders, we recommend booking at least 2 weeks in advance for custom designs. Same-day pastries available while supplies last. Event planning consultations are complimentary.",
-      "imagePrompt": "Welcoming storefront of a modern Nigerian bakery in Abeokuta with attractive signage, clean glass windows displaying beautiful cakes, professional exterior, customers entering, well-maintained building, green plants, inviting entrance, daytime photography with natural lighting",
-      "layout": "centered"
+      "name": "Contact Us",
+      "copy": "Ready to Power Your Next Project?\n\nWhether you're planning oilfield operations or exploring renewable energy solutions, Saraki Logistics Renewable Energy Limited is ready to deliver excellence. Our team is available to discuss your specific requirements and provide tailored solutions.\n\nVisit Our Office\nNo 2, Babatunde Adeyanju Close, Idi-Aba, Abeokuta South, Ogun State, Nigeria\n\nGet in Touch\nPhone: +234 816 467 6301\nWhatsApp: Available for instant consultation\n\nBusiness Hours\nMonday - Friday: 8:00 AM - 6:00 PM\nSaturday: 9:00 AM - 2:00 PM\nEmergency Support: Available 24/7 for existing clients\n\nRequest a Quote\nContact us today for a comprehensive consultation and competitive quotation for your energy project. Our experienced team will assess your needs and propose solutions that deliver value and performance.",
+      "imagePrompt": "Professional photorealistic image of modern Nigerian office building exterior with company signage, well-maintained entrance with security, parked company vehicles visible, clear blue sky, welcoming professional atmosphere, architectural photography style, Abeokuta urban setting with tropical vegetation",
+      "layout": "split"
     }
   ],
   "contact": {
-    "phone": "08164676301",
-    "email": "",
-    "address": "No 2, Babatunde Adeyanju Close, Idi-Aba, Abeokuta, Ogun State",
+    "phone": "+234 816 467 6301",
+    "email": "info@sarakilogistics.com",
+    "address": "No 2, Babatunde Adeyanju Close, Idi-Aba, Abeokuta South, Ogun State, Nigeria",
     "whatsapp": "https://wa.me/2348164676301"
   }
 }
